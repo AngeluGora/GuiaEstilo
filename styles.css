@@ -1,0 +1,69 @@
+/* Custom CSS for your page */
+body {
+    font-family: 'AardvarkBold', 'Courier New', Courier, monospace;
+}
+
+.logo {
+    max-width: 100px;
+    /* Adjust size as needed */
+}
+
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.titulo {
+    font-size: 4rem;
+    margin-top: 10px;
+}
+
+.navbar-toggler {
+    order: -1;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icons {
+    font-size: 15px;
+    margin: 0 20px;
+}
+
+.footer-icons i:hover {
+    color: #ccc;
+    cursor: pointer;
+}
+
+.enlaces{
+    text-decoration: none;
+    color: inherit;
+}
+
+.enlaces:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+.imagen-responsive {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 770px) and (max-width: 1200px) {
+    .imagen-responsive {
+        height: 90%; 
+    }
+}
