@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EL HOY</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    
+    .ad-container {
+      height: 200px;
+      background-color: #f0f0f0; 
+      margin-bottom: 20px;
+    }
+    .contenedor-noticias {
+      padding: 20px;
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+    .titulo-noticias {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+    }
+    .footer-left,
+    .footer-right {
+      display: flex;
+      align-items: center;
+    }
+    .footer-icons {
+      font-size: 15px;
+      margin: 0 20px;
+    }
+    .footer-icons i:hover {
+      color: #ccc;
+      cursor: pointer;
+    }
+    .img-fluid{
+      margin-top: 20px;
+      height: 650px;
+      width: max-content;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container text-center">
+            <a class="navbar-brand " href="#">
+                <img src="Logo.jpeg" alt="Logo" class="logo" height="150">
+            </a>
+            <h1 class="navbar-text mx-auto" id="titulo" >EL HOY</h1>
+
+
+            <div class="d-flex ml-auto align-items-center">
+                <div class="dropdown">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownLanguage"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Idioma
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownLanguage">
+                        <a class="dropdown-item ml-2" href="#">Español</a>
+                        <a class="dropdown-item ml-2" href="#">Inglés</a>
+                    </div>
+                </div>
+                <button class="btn btn-outline-primary ml-2" style="width: 161px;">Iniciar Sesión</button>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Inicio</a>
+                    <a class="nav-item nav-link" href="#">Noticias</a>
+                    <a class="nav-item nav-link" href="#">Deportes</a>
+                </div>
+            </div>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 w-auto" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+</header>
+
+<main>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            
+            <img src="banner.png" alt="Publicidad Izquierda" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <div class="contenedor-noticias">
+                <h2 class="titulo-noticias">Hallan nueva especie de planta carnívora en la selva amazónica</h2>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="contenedor-noticias">
+                            <p>Científicos de una expedición internacional conjunta han descubierto una nueva especie de planta carnívora en lo profundo de la selva amazónica. La planta, bautizada como "Dionaea amazonica", presenta características únicas que la distinguen de otras especies conocidas hasta el momento. Su hallazgo ha generado gran emoción entre la comunidad científica debido a su potencial para proporcionar nuevos conocimientos sobre la evolución y la diversidad biológica en la región amazónica.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="contenedor-noticias">
+                            <p>Los investigadores explican que la "Dionaea amazonica" se distingue por sus hojas en forma de embudo, diseñadas para atraer, atrapar y digerir insectos y pequeños animales. Además, su proceso de reproducción se asemeja a una compleja danza entre la planta y los polinizadores locales, lo que sugiere una relación simbiótica única en su ecosistema.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="contenedor-noticias">
+                            <p>Los científicos están ansiosos por estudiar más a fondo las características y el comportamiento de la "Dionaea amazonica" para comprender mejor su papel en el ecosistema amazónico y su potencial para aplicaciones científicas y tecnológicas. Este hallazgo destaca la importancia de preservar los hábitats naturales y promover la conservación de la selva amazónica, uno de los ecosistemas más diversos y vitales del planeta.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            
+            <img src="banner.png" alt="Publicidad Derecha" class="img-fluid">
+        </div>
+    </div>
+</div>
+      
+      
+</main>
+
+<footer class="footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-3 text-center text-md-left"> 
+              <h5 style="text-align: center;">Términos</h5>
+              <p>Normativa de la página.</p>
+          </div>
+          <div class="col-md-4 d-flex justify-content-center"> 
+              <i class="fas fa-phone footer-icons"></i>
+              <i class="fas fa-envelope footer-icons"></i>
+              <i class="fas fa-piggy-bank footer-icons"></i>
+              <i class="fas fa-share-alt footer-icons"></i>
+              <i class="fas fa-child footer-icons"></i>
+              <i class="fas fa-question footer-icons"></i>
+          </div>
+          <div class="col-md-5 text-center text-md-right">
+              <h5 style="text-align: center;">Cookies</h5>
+              <p>Almacenamos información para personalización.</p>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
