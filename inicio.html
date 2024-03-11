@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EL HOY</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container text-center">
+                <a class="navbar-brand " href="#">
+                    <img src="Logo.jpeg" alt="Logo" class="logo">
+                </a>
+                <h1 class="navbar-text mx-auto" id="titulo">EL HOY</h1>
+
+                <div class="d-flex ml-auto align-items-center">
+                    <div class="dropdown">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownLanguage"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Idioma
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownLanguage">
+                            <a class="dropdown-item ml-2" href="#">Español</a>
+                            <a class="dropdown-item ml-2" href="#">Inglés</a>
+                        </div>
+                    </div>
+                    <button class="btn btn-outline-primary ml-2" style="width: 161px;">Iniciar Sesión</button>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">Inicio</a>
+                        <a class="nav-item nav-link" href="GuiaEstPagNoticias.html">Noticias</a>
+                        <a class="nav-item nav-link" href="#">Deportes</a>
+                        <a class="nav-item nav-link" href="login.html">Login</a>
+                    </div>
+                </div>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2 w-auto" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-3 mb-2">
+                <div class="card">
+                    <div class="card-body mt">
+                        <h5 class="card-title text-center" >Publicidad</h5>
+                        <img src="images/2.jpg" class="card-img-top mb-2" alt="Imagen de la noticia">
+                        <p class="card-text mb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iusto
+                            commodi delectus, vitae nobis a voluptas officia rem voluptate quod mollitia minus ad, quas
+                            amet magni quis quam architecto quos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-2">
+                <div class="card">
+                    <div class="card-body">
+                        <!-- Título de la noticia -->
+                        <h2 class="card-title">Título de la Noticia</h2>
+                        <div class="row">
+                            <!-- Imagen de la noticia -->
+                            <div class="col-md-6" style="padding-right: 0">
+                                <img src="images/1.jpg" class="card-img-top imagen-responsive mt-1" alt="Imagen de la noticia">
+                            </div>
+                            <!-- Texto de la noticia -->
+                            <div class="col-md-6">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                                    nec odio. Praesent libero.
+                                    Sed cursus ante dapibus diam.</p>
+                            </div>
+                        </div>
+                        <p class="card-text">Morbi bibendum auctor sapien, eget varius lorem commodo ac. Fusce quis
+                            ultrices odio, nec finibus
+                            tortor. Pellentesque ac quam vel velit
+                            commodo dapibus. Vestibulum id purus nec purus tristique tristique eget eu dui. Vivamus
+                            dignissim
+                            velit a enim vestibulum, id ullamcorper leo
+                            pharetra. Nulla facilisi.</p>
+                        <p class="card-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                            ac turpis egestas. Sed
+                            gravida elit sit amet risus ultricies, vel
+                            suscipit justo pulvinar. Duis tincidunt magna in facilisis fermentum.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-2">
+                <div class="card">
+                    <div class="card-body mt">
+                        <h5 class="card-title text-center" >Publicidad</h5>
+                        <img src="images/2.jpg" class="card-img-top mb-2" alt="Imagen de la noticia">
+                        <p class="card-text mb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iusto
+                            commodi delectus, vitae nobis a voluptas officia rem voluptate quod mollitia minus ad, quas
+                            amet magni quis quam architecto quos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr style="width: 85%;">
+
+    <h3 class="text-center mt-5 mb-5">Otras Noticias</h3>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-6 col-sm-6 col-md-3 mb-2">
+                <div class="card">
+                    <div class="card-body mt">
+                        <h5 class="card-title text-center"><a href="#" class="enlaces">Ultima Hora Sobre La Huelga De Agricultores</a></h5>
+                        <img src="images/3.jpg" class="card-img-top mb-2" alt="Imagen de la noticia" style="height:80px;">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-6 col-sm-6 col-md-3 mb-2">
+                <div class="card">
+                    <div class="card-body mt">
+                        <h5 class="card-title text-center"><a href="#" class="enlaces">El Athletic avanza de Ronda</a></h5>
+                        <img src="images/5.jpg" class="card-img-top mb-2" alt="Imagen de la noticia">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-6 col-sm-6 col-md-3 mb-2">
+                <div class="card">
+                    <div class="card-body mt">
+                        <h5 class="card-title text-center"><a href="#" class="enlaces">Mike Tyson Regresa</a></h5>
+                        <img src="images/6.webp" class="card-img-top mb-2" alt="Imagen de la noticia">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-6 col-sm-6 col-md-3 mb-2">
+                <div class="card">
+                    <div class="card-body mt">
+                        <h5 class="card-title text-center"><a href="#" class="enlaces">Alonso 9º</a></h5>
+                        <img src="images/4.jpg" class="card-img-top mb-2" alt="Imagen de la noticia">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 text-center text-md-left">
+                        <h5 style="text-align: center;">Términos</h5>
+                        <p>Normativa de la página.</p>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <i class="fas fa-phone footer-icons"></i>
+                        <i class="fas fa-envelope footer-icons"></i>
+                        <i class="fas fa-piggy-bank footer-icons"></i>
+                        <i class="fas fa-share-alt footer-icons"></i>
+                        <i class="fas fa-child footer-icons"></i>
+                        <i class="fas fa-question footer-icons"></i>
+                    </div>
+                    <div class="col-md-5 text-center text-md-right">
+                        <!-- Centrado en dispositivos pequeños y alineado a la derecha en dispositivos medianos y superiores -->
+                        <h5 style="text-align: center;">Cookies</h5>
+                        <p>Almacenamos información para personalización.</p>
+                    </div>
+                </div>
+                <hr color="black">
+                <div class="row">
+                    <div class="col-md-5 col-sm-4 text-center">
+                        <p class="mb-0">© 2024 El HOY</p>
+                    </div>
+                    <div class="col-md-6 text-right col-sm-6 d-flex justify-content-center">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#">Info</a></li>
+                            <li class="list-inline-item"><a href="#">Compartir</a></li>
+                            <li class="list-inline-item"><a href="#">Donaciones</a></li>
+                            <li class="list-inline-item"><a href="#">Reclamaciones</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
